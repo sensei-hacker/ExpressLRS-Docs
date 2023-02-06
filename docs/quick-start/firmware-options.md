@@ -7,7 +7,10 @@ description: Get your ExpressLRS Devices setup as you deemed fit! Customize your
 
 This page aims to explain only the key options in ExpressLRS Configurator you may need for your initial setup. For a full description of **all** the options available, see the [User Defines page](../software/user-defines.md).
 
-Some of these options are present on both the Tx and Rx Targets. It is important that these options match to both the TX module and receiver in order for them to bind. `team2400` and `team900` also share a few options and some options are unique to that frequency band. Shown below are common options available on `team2400` and `team900` TXes respectively.
+These options are set before before flashing either the transmitter (tx) or the receiver (rx).
+Some of these options are present on both the Tx and Rx Targets. It is important that these options match to both the TX
+module and receiver in order for them to bind. 2.4 Ghz systems and 900 Mhz share a few options, while some options are
+unique to each frequency band. Shown below are common options available on `team2400` and `team900` TXes respectively.
 
 <figure markdown>
 ![2400 TX Options](../assets/images/ConfigurationOptions2400tx.png)

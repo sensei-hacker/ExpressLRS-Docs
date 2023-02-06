@@ -49,11 +49,6 @@ Set these to have the "Wifi Update" mode try to connect to an existing wifi netw
 ## Other Options
 
 ```
-UNLOCK_HIGHER_POWER 
-```
-Enables higher output power for devices that support it but will possibly melt themselves to give it to you. Do not enable it without first updating your cooling setup or verifying the device isn't overheating when running at your chosen power.
-
-```
 UART_INVERTED
 ```
 This **only works** with ESP32 based TXes. **Almost all handsets** require `UART_INVERTED` on, such as the FrSky QX7, TBS Tango 2, and RadioMaster TX16S. For T8SG V2 or Deviation firmware turn this setting off.
